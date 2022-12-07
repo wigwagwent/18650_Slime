@@ -21,4 +21,4 @@ A description of the changes in each revision can be found [here](CHANGELOG.md).
 
 ## Credits
 The schematic was based on version 3.0 of the ![ferrous_slime](https://github.com/TheButlah/slimevr_pcb/tree/main/hardware/ferrous_slime).
-Big thanks to @TheButlah for all the work he put into this schematic and into slimevr.
+Big thanks to TheButlah for all the work he put into this schematic and into slimevr.
