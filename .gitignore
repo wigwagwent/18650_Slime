@@ -26,5 +26,6 @@ fp-info-cache
 # Local setting files
 *.kicad_prl
 
-# Gerber Outputs
+# Release Files
 /hardware/*/gerber/
+/hardware/*/releases/

@@ -390,13 +390,11 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "slimevr_pcb"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ferrous_slime.kicad_pro",
+    "filename": "18650_Slime.kicad_pro",
     "version": 1
   },
   "net_settings": {
