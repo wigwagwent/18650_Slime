@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name "18650")(type "KiCad")(uri "/home/carter/Documents/Dev/18650_Slime/hardware/libs/18650.kicad_sym")(options "")(descr ""))
+  (version 7)
+  (lib (name "18650_Slime")(type "KiCad")(uri "${KIPRJMOD}/../libs/18650_Slime.kicad_sym")(options "")(descr ""))
 )
