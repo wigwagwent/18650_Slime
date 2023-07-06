@@ -1,13 +1,18 @@
 # slimevr_pcb
-A PCB design the size of a 18650 battery that supports the BMI160 and BMM150 designed for SlimeVR full-body trackers
+A PCB design the size of a 18650 battery that supports the BMI160 designed for SlimeVR full-body trackers
 
-- [18650_Slime](/hardware/18650_Slime/) - A fully custom surface-mount PCB.
+- [18650_Slime-Main](/hardware/18650_Slime_main/) - A fully custom PCB that handles the IMU.
+
   Unlike most of the SlimeVR community, it uses the ESP32-C3, a newer and more
   powerful chip. Designed to be a more powerful development platform, as it natively
   supports JTAG debugging over USB, more compilers and languages, including Rust,
   and supports Bluetooth LE v5.0.
-  ![3d render](/hardware/18650_Slime/renders/front.png)
+  ![3d render](/hardware/18650_Slime_main/renders/18650_Slime_Main_Front.png)
 
+- [18650_Slime-Battery](/hardware/18650_Slime_battery/) - Combines fast charging with protection
+  ![3d render](/hardware/18650_Slime_battery/renders/18650_Slime_Battery_Front.png)
+  
+  It can be used with other boards that want an 18650 cell with a built in charge controller.
 
 ## License
 **This hardware is licensed under the CERN-OHL-P v2 license**, which is a permissive,

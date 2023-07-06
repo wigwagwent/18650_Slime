@@ -56,9 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "items_not_allowed|104430000|69800000|06557185-94f2-4769-af84-8ba368a7b950|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -527,7 +525,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "../../../../../",
       "specctra_dsn": "",
       "step": "18650_Slime_battery.step",
       "vrml": "18650_Slime_battery.wrl"

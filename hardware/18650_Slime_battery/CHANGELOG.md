@@ -19,3 +19,4 @@ Only very small changes are allowed so they should work if the stencil change wo
 	-#3 Make trace spacing bigger
 	-#4 TP4056 gets hot at 500ma
 	-#6 Verify that there is undervolt protection
+- Added a mounting place for battery

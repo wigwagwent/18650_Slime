@@ -30,7 +30,8 @@ Only very small changes are allowed so they should work if the stencil change wo
 - Status: Untested
 
 ## v1.0.0
-- New desing for board
+- New design for board
+- Removed BMM150 and made BMI160 a module
 - fixes issues
 	-#1 Use module instead of soldering on bmi160 on main board
 	-#2 0805 passives

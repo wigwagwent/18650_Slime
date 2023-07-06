@@ -5,11 +5,11 @@ circuit protection. It supports charging rates up to 3A with the current setting
 
 
 ## Renders
-![Front](renders/18650_Slime_battery_front.png)
-![Back](renders/18650_Slime_battery_back.png)
-![Side](renders/18650_Slime_battery_side.png)
-![Schematic Battery Board](schematic/18650_Slime_battery.svg)
-![PCB](schematic/18650_Slime_battery_pcb.png)
+![Front](renders/18650_Slime_Battery_Front.png)
+![Back](renders/18650_Slime_Battery_Back.png)
+![Side](renders/18650_Slime_Battery_Side.png)
+![Schematic Battery Board](schematic/18650_Slime_Battery.svg)
+![PCB](schematic/18650_Slime_Battery_Pcb.png)
 
 ## Changelog
 A description of the changes in each revision can be found [here](CHANGELOG.md).

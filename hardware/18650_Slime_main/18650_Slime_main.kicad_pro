@@ -57,7 +57,13 @@
         }
       ],
       "drc_exclusions": [
-        "unconnected_items|104900000|63400000|ac44905e-0419-4162-ba6a-54474cd675d9|70358d31-5c36-4185-b841-70e701b3e991"
+        "silk_edge_clearance|59000000|109325000|8a94c234-8faf-4fa0-afaa-5bc55e4e1540|45188503-7cc3-40d9-a839-ee6f15c74d6b",
+        "silk_edge_clearance|59000000|109325000|8a94c234-8faf-4fa0-afaa-5bc55e4e1540|a650d514-f314-4c7c-b5cf-621cafacc310",
+        "silk_edge_clearance|59000000|96125000|8a94c234-8faf-4fa0-afaa-5bc55e4e1540|3a8c0e80-264a-40bb-9b50-7880958a320f",
+        "starved_thermal|110450000|105080000|bff483b1-ad5e-457b-bbff-9b385107218a|9a25831b-5df5-43c8-a0c4-8b9bb9daf7f9|F.Cu",
+        "starved_thermal|113750000|97050000|bff483b1-ad5e-457b-bbff-9b385107218a|4370184d-5595-4abf-819b-234ca2f4e0d6|F.Cu",
+        "unconnected_items|109180000|105645000|dafecc2f-a53b-4b7c-8444-b3b16036889a|7715b117-4640-4dd6-a4a9-aa494eadfd4e",
+        "unconnected_items|117820000|105645000|7911031e-f4c8-4622-a1fd-7204753c442b|dafecc2f-a53b-4b7c-8444-b3b16036889a"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -434,7 +440,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",

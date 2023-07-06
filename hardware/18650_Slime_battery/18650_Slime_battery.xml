@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/carter/Documents/VR/18650_Slime/hardware/18650_Slime_battery/18650_Slime_battery.kicad_sch</source>
-    <date>Sun 18 Jun 2023 04:14:22 PM MST</date>
-    <tool>Eeschema 7.0.5</tool>
+    <date>Wed 05 Jul 2023 07:00:56 PM MST</date>
+    <tool>Eeschema 7.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>18650_Slime_Battery</title>
@@ -219,20 +219,15 @@
       <tstamps>8f36e8c3-96bf-4a51-b83f-dcd95c376927</tstamps>
     </comp>
     <comp ref="J1">
-      <value>Conn_01x04_Male</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal</footprint>
-      <fields>
-        <field name="LCSC">DNP</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
-      <property name="LCSC" value="DNP"/>
-      <property name="Extended" value=""/>
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="18650_Slime_battery.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>6cc00211-a2cd-4207-a173-aa95a6315b0c</tstamps>
+      <tstamps>b65f15f8-c40b-4fec-8605-607ac6ec1a21</tstamps>
     </comp>
     <comp ref="L1">
       <value>1uH</value>
@@ -409,24 +404,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>76e6e630-4449-4d55-b734-8c3d6d35baab</tstamps>
     </comp>
-    <comp ref="R8">
-      <value>120K</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1203T5E_C17436.pdf</datasheet>
-      <fields>
-        <field name="Extended">Basic</field>
-        <field name="LCSC">C17436</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C17436"/>
-      <property name="Extended" value="Basic"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="18650_Slime_battery.kicad_sch"/>
-      <property name="ki_description" value="Resistor, small symbol"/>
-      <property name="ki_keywords" value="R resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f8f8ef70-ee31-4a21-95fe-c53632f55e93</tstamps>
-    </comp>
     <comp ref="R9">
       <value>DNP</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
@@ -443,24 +420,6 @@
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ffbc9c2f-72dd-4ef6-bba8-be67d5d1f5f9</tstamps>
-    </comp>
-    <comp ref="R10">
-      <value>30K</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2205311830_UNI-ROYAL-Uniroyal-Elec-0805W8F3002T5E_C17621.pdf</datasheet>
-      <fields>
-        <field name="Extended">Basic</field>
-        <field name="LCSC">C17621</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C17621"/>
-      <property name="Extended" value="Basic"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="18650_Slime_battery.kicad_sch"/>
-      <property name="ki_description" value="Resistor, small symbol"/>
-      <property name="ki_keywords" value="R resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5c4b52d8-3b63-48fa-a9de-35b9e31c8ee7</tstamps>
     </comp>
     <comp ref="R11">
       <value>0.5R</value>
@@ -626,22 +585,21 @@
         <pin num="8" name="D1/D2" type="bidirectional"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="Conn_01x04_Pin">
-      <description>Generic connector, single row, 01x04, script generated</description>
+    <libpart lib="Connector" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
       <docs>~</docs>
       <footprints>
         <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x04_Pin</field>
+        <field name="Value">Conn_01x03_Pin</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
         <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -822,7 +780,6 @@
       <node ref="R18" pin="1" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
-      <node ref="R8" pin="1" pintype="passive"/>
     </net>
     <net code="4" name="-BATT">
       <node ref="B1" pin="2" pinfunction="GND" pintype="power_out"/>
@@ -833,12 +790,7 @@
       <node ref="Q3" pin="3" pinfunction="S1" pintype="power_in"/>
       <node ref="U2" pin="6" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="5" name="B_SENSE">
-      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="R10" pin="1" pintype="passive"/>
-      <node ref="R8" pin="2" pintype="passive"/>
-    </net>
-    <net code="6" name="GND">
+    <net code="5" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
@@ -846,88 +798,87 @@
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="Q2" pin="6" pinfunction="S2" pintype="power_in"/>
       <node ref="Q2" pin="7" pinfunction="S2" pintype="power_in"/>
       <node ref="Q3" pin="6" pinfunction="S2" pintype="power_in"/>
       <node ref="Q3" pin="7" pinfunction="S2" pintype="power_in"/>
       <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U1" pin="9" pinfunction="EPAD" pintype="power_in"/>
     </net>
-    <net code="7" name="Net-(C5-Pad2)">
+    <net code="6" name="Net-(C5-Pad2)">
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
     </net>
-    <net code="8" name="Net-(D1-A)">
+    <net code="7" name="Net-(D1-A)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="9" name="Net-(D2-K)">
+    <net code="8" name="Net-(D2-K)">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="F1" pin="1" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
     </net>
-    <net code="10" name="Net-(Q2-D1{slash}D2-Pad1)">
+    <net code="9" name="Net-(Q2-D1{slash}D2-Pad1)">
       <node ref="Q2" pin="1" pinfunction="D1/D2" pintype="bidirectional"/>
       <node ref="Q2" pin="8" pinfunction="D1/D2" pintype="bidirectional"/>
       <node ref="Q3" pin="1" pinfunction="D1/D2" pintype="bidirectional"/>
       <node ref="Q3" pin="8" pinfunction="D1/D2" pintype="bidirectional"/>
     </net>
-    <net code="11" name="Net-(U1-BAT)">
+    <net code="10" name="Net-(U1-BAT)">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="BAT" pintype="input"/>
     </net>
-    <net code="12" name="Net-(U1-D1)">
+    <net code="11" name="Net-(U1-D1)">
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="D1" pintype="bidirectional"/>
     </net>
-    <net code="13" name="Net-(U1-D2)">
+    <net code="12" name="Net-(U1-D2)">
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="D2" pintype="output"/>
     </net>
-    <net code="14" name="Net-(U1-ICHG)">
+    <net code="13" name="Net-(U1-ICHG)">
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="ICHG" pintype="input"/>
     </net>
-    <net code="15" name="Net-(U1-NTC)">
+    <net code="14" name="Net-(U1-NTC)">
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="NTC" pintype="input"/>
     </net>
-    <net code="16" name="Net-(U1-SW)">
+    <net code="15" name="Net-(U1-SW)">
       <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="SW" pintype="output"/>
     </net>
-    <net code="17" name="Net-(U1-TEST)">
+    <net code="16" name="Net-(U1-TEST)">
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="TEST" pintype="input"/>
     </net>
-    <net code="18" name="Net-(U2-CS)">
+    <net code="17" name="Net-(U2-CS)">
       <node ref="R13" pin="2" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="CS" pintype="input"/>
     </net>
-    <net code="19" name="Net-(U2-VCC)">
+    <net code="18" name="Net-(U2-VCC)">
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="U2" pin="5" pinfunction="VCC" pintype="input"/>
     </net>
-    <net code="20" name="OC">
+    <net code="19" name="OC">
       <node ref="Q2" pin="5" pinfunction="G2" pintype="input"/>
       <node ref="Q3" pin="5" pinfunction="G2" pintype="input"/>
       <node ref="U2" pin="3" pinfunction="OC" pintype="output"/>
     </net>
-    <net code="21" name="OD">
+    <net code="20" name="OD">
       <node ref="Q2" pin="4" pinfunction="G1" pintype="input"/>
       <node ref="Q3" pin="4" pinfunction="G1" pintype="input"/>
       <node ref="U2" pin="1" pinfunction="OD" pintype="output"/>
     </net>
-    <net code="22" name="unconnected-(U2-TD-Pad4)">
+    <net code="21" name="unconnected-(U2-TD-Pad4)">
       <node ref="U2" pin="4" pinfunction="TD" pintype="input+no_connect"/>
     </net>
   </nets>

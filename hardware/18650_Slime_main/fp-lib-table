@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "18650")(type "KiCad")(uri "${KIPRJMOD}/../libs/Footprints/18650.pretty")(options "")(descr ""))
+  (version 7)
+  (lib (name "18650")(type "KiCad")(uri "${KIPRJMOD}/../libs/Footprints/18650_Slime.pretty")(options "")(descr ""))
 )
