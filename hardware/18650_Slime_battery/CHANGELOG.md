@@ -20,3 +20,8 @@ Only very small changes are allowed so they should work if the stencil change wo
 	-#4 TP4056 gets hot at 500ma
 	-#6 Verify that there is undervolt protection
 - Added a mounting place for battery
+
+## v1.0.0 component update
+- FS312F-G was replaced by DW01C-G [Stock]
+- S8205A was replaced by MS8205A (New is not in JLCPCB parts yet) [Deprecated] 
+- IP2312-4V35 was replaced by IP2312U-VSET [Stock]

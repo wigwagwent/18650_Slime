@@ -40,3 +40,7 @@ Only very small changes are allowed so they should work if the stencil change wo
 - Moved every componet (except lion managment) to this board
 - Added pushbutton power instead of switch
 
+## v1.1.0
+- Removed resistor from usb shield to GND
+- Fixed LCSC# for 1K resistor
+-PCB Ordered
